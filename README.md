@@ -24,9 +24,11 @@
 
 ### 从 Release 安装
 
-1. 在 [Releases](https://github.com/Serral828/obsidian-vault-knowledge-agent/releases) 下载 `main.js`、`manifest.json` 和 `styles.css`。
-2. 将三个文件放入 `<Vault>/.obsidian/plugins/vault-knowledge-agent/`。
+1. 在 [Releases](https://github.com/Serral828/obsidian-vault-knowledge-agent/releases) 下载 `vault-knowledge-agent.zip`。
+2. 解压后，将其中的 `main.js`、`manifest.json` 和 `styles.css` 放入 `<Vault>/.obsidian/plugins/vault-knowledge-agent/`。
 3. 在 Obsidian 的“第三方插件”中启用 **Vault Knowledge Agent**。
+
+Release 中单独列出的三个运行文件用于兼容 Obsidian 官方安装和更新机制；普通用户直接下载 ZIP 即可。
 
 ### 从源码构建
 
