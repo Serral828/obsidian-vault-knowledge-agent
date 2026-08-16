@@ -1,0 +1,10 @@
+{
+  "id": "vault-knowledge-agent",
+  "name": "Vault Knowledge Agent",
+  "version": "0.1.2",
+  "minAppVersion": "1.11.4",
+  "description": "基于整个 Vault 的可追溯知识管理 Agent。",
+  "author": "Serral828",
+  "authorUrl": "https://github.com/Serral828",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vault-knowledge-agent",
+  "version": "0.1.2",
+  "description": "A Vault-grounded knowledge management agent for Obsidian.",
+  "author": "Serral828",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serral828/obsidian-vault-knowledge-agent.git"
+  },
+  "homepage": "https://github.com/Serral828/obsidian-vault-knowledge-agent#readme",
+  "bugs": "https://github.com/Serral828/obsidian-vault-knowledge-agent/issues",
+  "keywords": ["obsidian", "knowledge-management", "ai-agent", "rag"],
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "node esbuild.config.mjs --production",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.11.4",
+    "typescript": "^5.8.0"
+  }
+}
